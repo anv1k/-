@@ -1,0 +1,95 @@
+#banner {	
+text-align: center;
+background: linear-gradient(#ff512f,#dd2476);
+padding-top: 70px;
+padding-bottom: 70px;
+color: black;
+}
+#menu {
+	float: right;
+}
+a {
+	text-decoration: none;
+	margin-right: 10px;
+	background-color: white;
+	color: black;
+	border: 1px solid green;
+	margin-top: 10px;
+	display: inline;
+}
+a:hover {
+	box-shadow: -4px 3px 7px 1px black;
+	transition: .5s ease-in-out;
+	padding: 1px 1px;
+}
+h2 {
+	text-align: center;
+	margin-top: 20px;
+}
+img {
+	width: 100px;
+	height: 100px;	
+	margin-left: 136px;
+}
+h5 {
+	margin-left: 137px;
+}
+.col {
+	float: left;
+}
+h4 {
+	display: block;
+}
+#asd {
+	float: right;
+	width: 25%;
+	height: 25%;
+	margin-bottom: 18px;
+}
+#asd:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#dsa {
+	float: left;
+	width: 25%;
+	height: 25%;
+	margin-left: -1px;
+	margin-right: 80px;
+}
+#dsa:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.col-1 {
+	margin-right: 203px;
+}
+.col-2 {
+	margin-right: 263px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	img {
+		width: 50%;
+		height: 50%;
+		margin-left: 80px;
+	}
+	h5 {
+		margin-left: 103px;
+	}
+	#glav {
+		opacity: 0;
+	}
+	#asd, #dsa {
+		width: 50%;
+		height: 50%;
+	}
+	.col-2 {
+		margin-left: 18px;
+	}
+	.col-1 {
+		margin-left: 17px;
+	}
+}
